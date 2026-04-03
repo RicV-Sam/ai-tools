@@ -667,6 +667,55 @@ table {
   margin: 0;
 }
 
+.directory-jumps {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.7rem;
+  margin-top: 1.25rem;
+}
+
+.directory-jumps a {
+  display: inline-flex;
+  align-items: center;
+  padding: 0.45rem 0.8rem;
+  border: 1px solid var(--line-strong);
+  border-radius: 999px;
+  background: rgba(116, 192, 252, 0.08);
+  color: var(--text);
+  font-size: 0.92rem;
+  font-weight: 700;
+}
+
+.directory-table {
+  min-width: 720px;
+}
+
+.directory-table th,
+.directory-table td {
+  white-space: nowrap;
+}
+
+.directory-table td:nth-child(2),
+.directory-table th:nth-child(2) {
+  white-space: normal;
+  min-width: 220px;
+}
+
+.directory-popular {
+  margin-bottom: 2rem;
+}
+
+.directory-popular .card h3,
+.directory-table a {
+  margin-bottom: 0;
+}
+
+.directory-note {
+  margin-top: 0.9rem;
+  color: var(--text-muted);
+  font-size: 0.95rem;
+}
+
 th,
 td {
   padding: 0.95rem 1rem;
