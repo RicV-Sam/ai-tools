@@ -114,7 +114,7 @@ AI Tool Radar is a lightweight, static authority-style website for discovering, 
 1. Open [`sitemap.xml`](sitemap.xml).
 2. Add a new `<url>` block for each public page.
 3. Keep URLs consistent with the GitHub Pages project path format:
-   - `https://your-github-username.github.io/ai-tools/page-path`
+- `https://ricv-sam.github.io/ai-tools/page-path`
 4. Update `<lastmod>` when the page meaningfully changes.
 5. Do not add utility pages such as `404.html` unless you have a specific indexing reason.
 

@@ -1,6 +1,4 @@
-# Update the sitemap URL below once the final GitHub Pages URL is live.
-# If the GitHub username or repository name changes, update this file and sitemap.xml together.
 User-agent: *
 Allow: /
 
-Sitemap: https://your-github-username.github.io/ai-tools/sitemap.xml
+Sitemap: https://ricv-sam.github.io/ai-tools/sitemap.xml
