@@ -1,6 +1,7 @@
 # AI Tool Radar
 
 AI Tool Radar is a lightweight, static authority-style website for discovering, comparing, and understanding practical AI tools. It is built for GitHub Pages with plain HTML and CSS so it stays fast, easy to maintain, and easy to expand over time.
+Deployment refresh
 
 ## Project goals
 
