@@ -562,6 +562,111 @@ table {
   background: rgba(13, 19, 34, 0.76);
 }
 
+.decision-grid,
+.verdict-grid,
+.mini-grid,
+.pick-grid {
+  display: grid;
+  gap: 1rem;
+}
+
+.decision-grid,
+.mini-grid {
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+}
+
+.verdict-grid,
+.pick-grid {
+  grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+}
+
+.decision-card,
+.verdict-box,
+.editorial-note,
+.path-card,
+.rank-card,
+.quote-card {
+  padding: 1.25rem;
+  border: 1px solid var(--line);
+  border-radius: var(--radius-md);
+  background: rgba(12, 18, 31, 0.82);
+  box-shadow: var(--shadow);
+}
+
+.path-card {
+  background: linear-gradient(180deg, rgba(116, 192, 252, 0.08), rgba(10, 15, 28, 0.9));
+}
+
+.decision-card h3,
+.verdict-box h2,
+.editorial-note h2,
+.path-card h3,
+.rank-card h3,
+.quote-card h3 {
+  margin-top: 0;
+}
+
+.verdict-box {
+  background: linear-gradient(180deg, rgba(116, 192, 252, 0.1), rgba(10, 15, 28, 0.92));
+}
+
+.verdict-box p:last-child,
+.decision-card p:last-child,
+.path-card p:last-child,
+.rank-card p:last-child,
+.editorial-note p:last-child,
+.quote-card p:last-child {
+  margin-bottom: 0;
+}
+
+.verdict-list,
+.check-list {
+  margin: 1rem 0 0;
+  padding-left: 1.2rem;
+  color: var(--text-soft);
+}
+
+.verdict-list li + li,
+.check-list li + li {
+  margin-top: 0.5rem;
+}
+
+.section-kicker {
+  margin: 0 0 0.7rem;
+  color: var(--text-muted);
+  font-size: 0.92rem;
+}
+
+.highlight-line {
+  color: var(--text);
+  font-weight: 700;
+}
+
+.inline-links {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.75rem 1rem;
+  margin-top: 1rem;
+}
+
+.inline-links a {
+  font-weight: 700;
+}
+
+.rank-card .meta-pill,
+.verdict-box .meta-pill,
+.editorial-note .meta-pill {
+  margin-bottom: 0.85rem;
+}
+
+.quote-card {
+  border-left: 3px solid var(--accent);
+}
+
+.quote-card p {
+  margin: 0;
+}
+
 th,
 td {
   padding: 0.95rem 1rem;
@@ -590,7 +695,11 @@ tbody tr:last-child td {
   .content-layout,
   .three-up,
   .two-up,
-  .four-up {
+  .four-up,
+  .decision-grid,
+  .verdict-grid,
+  .mini-grid,
+  .pick-grid {
     grid-template-columns: 1fr;
   }
 
